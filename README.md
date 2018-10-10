@@ -10,4 +10,6 @@ python convertJsonToCollapsed.py any.json
 # Create flame graph
 cat any.json.txt |perl ~/work/FlameGraph/flamegraph.pl --title "Tree Graph" > any.json.svg
 
+To change the titile of graph, simple replace "Tree Graph" with "any title"
+
 # Open any.json.svg in Chrome Browser
