@@ -10,11 +10,10 @@ def combine():
     svgs = sys.argv[1:]
     for svg in svgs:
         html_page.append("<div>")
-        iframe = "<iframe src="
-        iframe += svg
-        iframe += " width=1200>"
-        html_page.append(iframe)
-        html_page.append("</iframe>")
+        obj = "<object type=image/svg+xml data="
+        obj += svg
+        html_page.append(obj)
+        html_page.append("></object>")
         html_page.append("</div>")
 
     html_page.append("</body></html>")
