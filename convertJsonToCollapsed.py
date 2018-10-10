@@ -5,7 +5,7 @@ def convert(file_name):
 
     with open(file_name) as f:
         data = json.load(f)
-        stack = "business"
+        stack = "root"
         traces = []
         walk_tree(data, stack, traces)
     
