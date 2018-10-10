@@ -13,3 +13,9 @@ cat any.json.txt |perl ~/work/FlameGraph/flamegraph.pl --title "Tree Graph" > an
 To change the titile of graph, simple replace "Tree Graph" with "any title"
 
 # Open any.json.svg in Chrome Browser
+
+# If you have multiple svg files, you can combine them into a html report using combineSVG.py
+
+python combineSVG.py first.svg second.svg third.svg
+
+Open the resulting index.html in a web browser
