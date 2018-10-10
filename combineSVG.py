@@ -12,7 +12,7 @@ def combine():
         html_page.append("<div>")
         iframe = "<iframe src="
         iframe += svg
-        iframe += " width=1920>"
+        iframe += " width=1200>"
         html_page.append(iframe)
         html_page.append("</iframe>")
         html_page.append("</div>")
